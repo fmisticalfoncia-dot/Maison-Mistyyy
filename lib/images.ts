@@ -1,3 +1,9 @@
+/** Still used as the cinematic background until an mp4 is provided. */
+export const backgroundStill =
+  "https://res.cloudinary.com/mjmmjbqu/image/upload/v1795092920/WhatsApp_Image_2026-11-19_at_2.51.40_PM_ipfspf.jpg";
+
+export const backgroundVideo = "";
+
 export const editorialImages = [
   {
     src: "https://res.cloudinary.com/mjmmjbqu/image/upload/v1795091098/WhatsApp_Image_2026-11-19_at_3.13.25_PM_lzkwpr.jpg",

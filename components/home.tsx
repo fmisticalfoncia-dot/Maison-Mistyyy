@@ -2,13 +2,15 @@ import Endless from "@/components/ui/endless";
 import { CinematicFooter } from "@/components/ui/motion-footer";
 import { SiteHeader } from "@/components/site-header";
 import { AppointmentForm } from "@/components/appointment-form";
+import { BackgroundVideo } from "@/components/background-video";
 import { editorialImages } from "@/lib/images";
 
 const [cover, maison, satin, muse] = editorialImages;
 
 export default function Home() {
   return (
-    <div className="relative w-full bg-background font-sans selection:bg-primary/30">
+    <div className="relative w-full bg-transparent font-sans selection:bg-primary/30">
+      <BackgroundVideo />
       <SiteHeader />
 
       <div className="relative z-10">
