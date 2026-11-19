@@ -33,7 +33,7 @@ const css = `
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-color: #000000;
+  background-color: transparent;
   color: #ffffff;
   font-family: inherit;
   user-select: none;
